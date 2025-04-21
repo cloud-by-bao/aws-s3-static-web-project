@@ -79,6 +79,18 @@ This project demonstrates how to host a static website using **Amazon S3** with 
 If you visit your S3 endpoint and get this:
 ![403 Error](screenshots/403-forbidden.png)
 
+### 12. Explore the Objects Panel
+![Objects panel](screenshots/objects-panel.png)
+
+### 13. General Purpose Bucket View
+![General purpose bucket](screenshots/general-purpose-bucket.png)
+
+### 14. Check All Public Settings
+![Unchecked public access](screenshots/uncheck-block-public-access.png)
+
+### 15. Final Screenshot Overview
+![Files uploaded and live](screenshots/uploaded-index-and-images.png)
+
 ✅ Check that:
 - Public access settings are disabled
 - Files are public (ACL or bucket policy)
