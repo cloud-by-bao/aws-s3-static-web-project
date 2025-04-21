@@ -127,5 +127,5 @@ bao-s3-static-web-project/
 
 ## ✨ Star This Repo
 
-www.linkedin.com/in/baoluongdevops)If you found this helpful, give this repo a ⭐️ and connect with me on [LinkedIn](https://www.linkedin.com/in/bluong21)!
+If you found this helpful, give this repo a ⭐️ and connect with me on [LinkedIn](https://www.linkedin.com/in/bluong21)!
 
