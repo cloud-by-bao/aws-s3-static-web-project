@@ -29,30 +29,30 @@ This project demonstrates how to host a static website using **Amazon S3** with 
 ## 📸 Step-by-Step Screenshots
 
 ### 1. Search and Select S3 from the AWS Console
-![Search S3](screenshots/Search for s3 in AWS .png)
+![Search S3](screenshots/search-s3-in-aws.png)
 
 ### 2. Create a Bucket in the Closest Region
-![Ohio region](screenshots/closes region.png)
+![Ohio region](screenshots/closest-region.png)
 
 ### 3. Upload Files (HTML + Image Assets)
-![Upload](screenshots/click on upload.png)  
-![Files uploaded](screenshots/uploaded index and images.png)
+![Upload](screenshots/click-on-upload.png)  
+![Files uploaded](screenshots/uploaded-index-and-images.png)
 
 ### 4. Enable Static Website Hosting
-![Enable static hosting](screenshots/static web hosting anabled.png)  
-![Static hosting setup](screenshots/static web hosting setup page.png)
+![Enable static hosting](screenshots/static-hosting-enabled.png)  
+![Static hosting setup](screenshots/static-hosting-setup.png)
 
 ### 5. Adjust Public Access Settings
-![Uncheck public block](screenshots/unchecked block all public access .png)
+![Uncheck public block](screenshots/uncheck-block-public-access.png)
 
 ### 6. Make Website Files Public Using ACL
-![Make objects public](screenshots/making objects public using ACL.png)
+![Make objects public](screenshots/make-public-using-acl.png)
 
 ### 7. View Your Live Website
-![Live site preview](screenshots/live website.png)
+![Live site preview](screenshots/live-website.png)
 
 ### 8. Understand Bucket Ownership & ACL Settings
-![ACL enabled](screenshots/ACLs enabled.png)
+![ACL enabled](screenshots/acls-enabled.png)
 
 ### 9. Add Bucket Policy to Prevent File Deletion
 ```json
@@ -70,14 +70,14 @@ This project demonstrates how to host a static website using **Amazon S3** with 
   ]
 }
 ```
-![Bucket Policy](screenshots/bucket policy.png)
+![Bucket Policy](screenshots/bucket-policy.png)
 
 ### 10. Confirm Deletion Denied (403)
-![Delete failed](screenshots/delete object denied .png)
+![Delete failed](screenshots/delete-object-denied.png)
 
 ### 11. (Issue) Fix 403 Forbidden Error
 If you visit your S3 endpoint and get this:
-![403 Error](screenshots/403 Forbidden .png)
+![403 Error](screenshots/403-forbidden.png)
 
 ✅ Check that:
 - Public access settings are disabled
